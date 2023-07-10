@@ -1,0 +1,35 @@
+.shell {
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  padding: 4px;
+}
+
+.shell ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+.shell ul li {
+  list-style: none;
+  padding-left: 4px;
+  padding-right: 4px;
+  border: 1px solid black;
+}
+
+.router-outlet-container {
+  border: 2px solid blue;
+  padding: 8px;
+  display: flex;
+}
+
+.remote-1-container {
+  border: 2px dashed green;
+  padding: 2px;
+}
+
+.remote-2-container {
+  border: 2px dashed purple;
+  padding: 2px;
+}

@@ -15,7 +15,13 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@mfexample/data-access/auth": ["libs/data-access/auth/src/index.ts"]
+      "@mfexample/data-access/auth": ["libs/data-access/auth/src/index.ts"],
+      "@mfexample/remote1/user-details": [
+        "libs/remote1/user-details/src/index.ts"
+      ],
+      "@mfexample/remote2/set-user-details": [
+        "libs/remote2/set-user-details/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]
