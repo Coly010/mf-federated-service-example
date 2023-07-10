@@ -1,5 +1,5 @@
 import {Component, inject} from "@angular/core";
-import {UserService} from "@mfexample/data-access/auth";
+import {UserService} from "auth-remote/auth";
 
 
 @Component({
