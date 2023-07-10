@@ -1,6 +1,6 @@
 import { Route } from '@angular/router';
-import { RemoteEntryComponent } from './entry.component';
 
 export const remoteRoutes: Route[] = [
-  { path: '', component: RemoteEntryComponent },
+  { path: '', loadChildren: () =>
+      import('@mfexample/remote2/set-user-details').then((m) => m.Remote2SetUserDetailsModule) },
 ];
